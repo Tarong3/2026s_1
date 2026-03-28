@@ -17,46 +17,46 @@ https://github.com/Tarong3/2026s_1/issues/1#issue-4158573801
 # API 명세서 (회원 기능 포함)
 ## 회원 기능
 ### 1. 회원 등록
-HTTP Method : POST
+HTTP Method : POST  
 URI : /members
 ### 2. 회원 목록 조회
-HTTP Method : GET
+HTTP Method : GET  
 URI : /members
 ### 3. 개별 회원 정보 상세 조회
-HTTP Method : GET
+HTTP Method : GET  
 URI : /members/{memberID}
 ### 4. 회원 정보 수정
-HTTP Method : PATCH
+HTTP Method : PATCH  
 URI : /members/{memberID}
 ### 5. 회원 삭제
-HTTP Method : DELETE
+HTTP Method : DELETE  
 URI : /members/{memberID}
 ## 상품 기능
 ### 1. 상품 정보 등록
-HTTP Method : POST
+HTTP Method : POST  
 URI : /items
 ### 2. 상품 목록 조회
-HTTP Method : GET
+HTTP Method : GET  
 URI : /items
 ### 3. 개별 상품 정보 상세 조회
-HTTP Method : GET
+HTTP Method : GET  
 URI : /items/{itemID}
 ### 4. 상품 정보 수정
-HTTP Method : PATCH
+HTTP Method : PATCH  
 URI : /items/{itemID}
 ### 5. 상품 삭제
-HTTP Method : DELETE
+HTTP Method : DELETE  
 URI : /items/{itemID}
 ## 주문 기능
 ### 1. 주문 정보 생성
-HTTP Method : POST
+HTTP Method : POST  
 URI : /orders
 ### 2. 주문 목록 조회
-HTTP Method : GET
+HTTP Method : GET  
 URI : /orders
 ### 3. 개별 주문 정보 상세 조회
-HTTP Method : GET
+HTTP Method : GET  
 URI : /orders/{orderID}
 ### 4. 주문 취소
-HTTP Method : DELETE
+HTTP Method : DELETE  
 URI : /orders/{orderID}
