@@ -1,6 +1,7 @@
 # 2주차 강의 내용
 ## 계층형 아키텍처 (Layered Architecture)
 계층형 아키텍처는 어플리케이션을 역할에 따라 계층별로 나누어 설계하는 방식으로, 레스토랑에 비유하여 이해할 수 있음  
+  
 **Browser (손님)** - 서비스 사용자  
 **Controller (웨이터)** - 요청을 받고 응답을 전달하는 진입점  
 **Service (주방장)** - 핵심 비즈니스 로직을 수행  
@@ -14,7 +15,7 @@
 언급 : @RestController, @RequestMapping, @RequestBody 등
 ## Service 계층
 역할 : 어플리케이션의 핵심 비즈니스 로직이 담기는 곳으로, Controller와 Repository 사이의 다리  
-Transaction : 쪼갤 수 없는 업무의 단위인 원자성을 보장.  
+**Transaction** : 쪼갤 수 없는 업무의 단위인 원자성을 보장.  
 언급 : @Transactional, "readOnly = true" 등
 ## Spring Bean & 의존성 주입
 **Spring Bean** : 스프링 컨테이너에서 관리하는 공용 객체  
